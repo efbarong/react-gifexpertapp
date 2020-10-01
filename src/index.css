@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	font-family: monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	padding: 60px;
+}
+
+.center {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	align-content: center;
+}
+
+input {
+	min-width: 300px;
+	width: 40%;
+	font-size: 1.2rem;
+	color: gray;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+}
+
+ol {
+	margin: 0px;
+	padding: 0px;
+}
+.card {
+	align-content: center;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	overflow: hidden;
+	box-shadow: 0px 10px 10px 1px rgb(141, 141, 141);
+	background-color: rgb(213, 231, 236);
+}
+
+.card p {
+	width: 300px;
+	padding-left: 10px;
+	padding-right: 5px;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 5px 2px 5px 2px;
+	word-break: normal;
+}
+
+.card img {
+	max-width: 300px;
+	min-width: 300px !important;
+	min-height: 170px;
+	max-height: 170px;
+	object-fit: cover;
+}
+
+.cardGrid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: auto;
+}
+
+.derecha {
+	margin-left: 85%;
 }
